@@ -4,6 +4,7 @@
   "name": "color",
   "resources": [
     {"id":{"name":"scr_calcular_pontuacao_final","path":"scripts/scr_calcular_pontuacao_final/scr_calcular_pontuacao_final.yy",},"order":14,},
+    {"id":{"name":"obj_novo_jogo","path":"objects/obj_novo_jogo/obj_novo_jogo.yy",},"order":12,},
     {"id":{"name":"obj_menus","path":"objects/obj_menus/obj_menus.yy",},"order":8,},
     {"id":{"name":"fnt_menor","path":"fonts/fnt_menor/fnt_menor.yy",},"order":3,},
     {"id":{"name":"obj_tile","path":"objects/obj_tile/obj_tile.yy",},"order":1,},
@@ -19,6 +20,7 @@
     {"id":{"name":"scr_usar_mover","path":"scripts/scr_usar_mover/scr_usar_mover.yy",},"order":5,},
     {"id":{"name":"spr_resultado_cores","path":"sprites/spr_resultado_cores/spr_resultado_cores.yy",},"order":6,},
     {"id":{"name":"scr_escolher_board_resultado","path":"scripts/scr_escolher_board_resultado/scr_escolher_board_resultado.yy",},"order":3,},
+    {"id":{"name":"spr_novo_jogo","path":"sprites/spr_novo_jogo/spr_novo_jogo.yy",},"order":8,},
     {"id":{"name":"obj_botoao_menu","path":"objects/obj_botoao_menu/obj_botoao_menu.yy",},"order":6,},
     {"id":{"name":"scr_atualizar_preview","path":"scripts/scr_atualizar_preview/scr_atualizar_preview.yy",},"order":11,},
     {"id":{"name":"scr_executar_combinacao","path":"scripts/scr_executar_combinacao/scr_executar_combinacao.yy",},"order":9,},

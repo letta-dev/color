@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_botao",
   "spriteId": {
-    "name": "spr_botao",
-    "path": "sprites/spr_botao/spr_botao.yy",
+    "name": "spr_novo_jogo",
+    "path": "sprites/spr_novo_jogo/spr_novo_jogo.yy",
   },
   "solid": false,
   "visible": true,

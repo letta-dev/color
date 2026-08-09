@@ -2,8 +2,8 @@
 // Você pode escrever seu código neste editor
 
 
-tempo = 0
-image_index = 3
+
+
 
 
 

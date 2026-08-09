@@ -2,8 +2,11 @@
 // Você pode escrever seu código neste editor
 
 
-tempo = 0
-image_index = 3
+randomize()
+frame_animacao = random_range(0,5)
+
+image_index = frame_animacao
+
 
 
 

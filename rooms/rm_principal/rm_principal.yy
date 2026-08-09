@@ -26,6 +26,7 @@
           ],"isDnd":false,"objectId":{"name":"obj_botao","path":"objects/obj_botao/obj_botao.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":128.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2F700682","properties":[],"isDnd":false,"objectId":{"name":"obj_musica","path":"objects/obj_musica/obj_musica.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":640.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_F22FA1E","properties":[],"isDnd":false,"objectId":{"name":"obj_sfx","path":"objects/obj_sfx/obj_sfx.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":640.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_FB9740B","properties":[],"isDnd":false,"objectId":{"name":"obj_novo_jogo","path":"objects/obj_novo_jogo/obj_novo_jogo.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":384.0,},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"tiles_fixos","instances":[],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
@@ -47,6 +48,7 @@
     {"name":"inst_662C4703","path":"rooms/rm_principal/rm_principal.yy",},
     {"name":"inst_2F700682","path":"rooms/rm_principal/rm_principal.yy",},
     {"name":"inst_F22FA1E","path":"rooms/rm_principal/rm_principal.yy",},
+    {"name":"inst_FB9740B","path":"rooms/rm_principal/rm_principal.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
