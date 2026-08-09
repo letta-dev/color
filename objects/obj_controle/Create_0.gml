@@ -6,11 +6,11 @@
 //-------------------------------------
 
 // dimensões
-board_colunas = 6;
-board_linhas = 6;
+board_colunas = 10;
+board_linhas = 8;
 
 // posição inicial
-board_x = 480;
+board_x = 350;
 board_y = 200;
 
 // sprite

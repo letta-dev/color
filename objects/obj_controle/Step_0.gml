@@ -125,12 +125,25 @@ if (mouse_check_button_released(mb_left))
 
                     if (!possui_espaco)
                     {
-                        pontuacao_final = scr_calcular_pontuacao_final();
+                        	    scr_calcular_pontuacao_final();
+								scr_calcular_composicao();
 
-                        show_debug_message("===== FIM DE JOGO =====");
-                        show_debug_message("Pontuação Final: " + string(pontuacao_final));
+								obj_menus.pontuacao_jogo = obj_controle.pontuacao;
 
-                        // room_goto(rm_resultado);
+								obj_menus.multiplicador_pureza = obj_controle.multiplicador;
+
+								obj_menus.pontuacao_final = obj_controle.pontuacao_final;
+
+								for (var i = 0; i < 9; i++)
+								{
+								    obj_menus.porcentagem_cores[i] = obj_controle.porcentagem_cores[i];
+								}
+
+
+								obj_menus.porcentagem_vazios = obj_controle.porcentagem_vazios;
+
+
+								room_goto(rm_resultado);
                     }
 
                     tile_ativo = noone;

@@ -6,13 +6,6 @@ frame_animacao = random_range(0,5)
 
 image_index = frame_animacao
 
-/*
-FUNÇÃO
-finaliza = 0
-som = 1
-musica = 3
-
-*/
 
 
 total_terciarias = 0
