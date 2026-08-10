@@ -11,10 +11,7 @@ function scr_buscar_cadeia(_board_inicial)
 
     // inicia a busca
     scr_busca(_board_inicial);
-	//show_debug_message(
-    //"Total encontrados: " +
-    //string(array_length(cadeia))
-	//);
+
 
     // libera os boards para futuras buscas
     for (var i = 0; i < array_length(cadeia); i++)

@@ -27,9 +27,21 @@ if (!instance_exists(tile_ativo))
     if (turno <= 5)
     {
         proximo_tipo  = TIPO_TILE;
-        proxima_cor   = irandom_range(0,2);
+
+        // sorteio balanceado
+        var nova_cor = irandom_range(0,2);
+        while (nova_cor == ultima_cor && nova_cor == penultima_cor)
+        {
+            nova_cor = irandom_range(0,2);
+        }
+
+        proxima_cor   = nova_cor;
         proximo_nivel = NIVEL_PRIMARIO;
         proximo_frame = proxima_cor;
+
+        // atualiza histórico
+        penultima_cor = ultima_cor;
+        ultima_cor    = proxima_cor;
 
         turno++;
     }
@@ -40,9 +52,21 @@ if (!instance_exists(tile_ativo))
         if (sorteio < 90)
         {
             proximo_tipo  = TIPO_TILE;
-            proxima_cor   = irandom_range(0,2);
+
+            // sorteio balanceado
+            var nova_cor = irandom_range(0,2);
+            while (nova_cor == ultima_cor && nova_cor == penultima_cor)
+            {
+                nova_cor = irandom_range(0,2);
+            }
+
+            proxima_cor   = nova_cor;
             proximo_nivel = NIVEL_PRIMARIO;
             proximo_frame = proxima_cor;
+
+            // atualiza histórico
+            penultima_cor = ultima_cor;
+            ultima_cor    = proxima_cor;
         }
         else
         {
@@ -50,6 +74,7 @@ if (!instance_exists(tile_ativo))
             proxima_cor   = -1;
             proximo_nivel = -1;
             proximo_frame = 9;
+
         }
     }
 }

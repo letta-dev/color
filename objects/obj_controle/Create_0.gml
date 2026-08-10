@@ -10,7 +10,7 @@ board_colunas = 10;
 board_linhas = 8;
 
 // posição inicial
-board_x = 350;
+board_x = 330;
 board_y = 200;
 
 // sprite
@@ -197,7 +197,7 @@ tabela_combinacao[COR_AZUL][COR_AMARELO]      = COR_VERDE;
 tabela_combinacao[COR_AMARELO][COR_AZUL]      = COR_VERDE;
 
 // Secundárias -> Terciárias
-tabela_combinacao[COR_ROXO][COR_VERDE]        = COR_OLIVA;
+tabela_combinacao[COR_ROXO][COR_VERDE]        = COR_OLIVA; 
 tabela_combinacao[COR_VERDE][COR_ROXO]        = COR_OLIVA;
 
 tabela_combinacao[COR_VERDE][COR_LARANJA]     = COR_RUSSET;

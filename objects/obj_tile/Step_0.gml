@@ -119,65 +119,16 @@ switch (estado)
 
 
 
-/*
-switch (estado)
+if (destruindo)
 {
+    escala -= 0.05;          // diminui o tamanho
+    image_angle += 10;       // gira o sprite
+    image_xscale = escala;
+    image_yscale = escala;
 
-    //---------------------------------
-    // SEGUE O MOUSE
-    //---------------------------------
-    case "movel":
-
-        x = mouse_x;
-        y = mouse_y;
-
-    break;
-
-
-    //---------------------------------
-    // PREPARA A JOGADA
-    //---------------------------------
-    case "prepara":
-
-        image_xscale = 0.9;
-        image_yscale = 0.9;
-
-        // Procura o board mais próximo
-        board_destino = instance_nearest(mouse_x, mouse_y, obj_board);
-
-        if (board_destino != noone)
-        {
-            var distancia = point_distance(mouse_x, mouse_y,
-                                           board_destino.x,
-                                           board_destino.y);
-
-            if (distancia < 30 && scr_board_valido(board_destino, id))
-            {
-                x = board_destino.x;
-                y = board_destino.y;
-            }
-            else
-            {
-                x = mouse_x;
-                y = mouse_y;
-
-                board_destino = noone;
-            }
-        }
-
-    break;
-
-
-    //---------------------------------
-    // PEÇA CONFIRMADA
-    //---------------------------------
-    case "final":
-
-        image_xscale = 1;
-        image_yscale = 1;
-
-    break;
+    if (escala <= 0)
+    {
+        instance_destroy();
+    }
 }
-
-
 

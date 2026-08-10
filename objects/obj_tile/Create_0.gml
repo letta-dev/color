@@ -38,3 +38,8 @@ Cores
 7 Russet (Marrom-Avermelhado): #80461B
 8 Oliva-Amarelado: #9ACD32
 9 MOVER
+
+*/
+
+destruindo = false;
+escala = 1;

@@ -133,7 +133,7 @@ if (etapa >= 6)
 //=====================================
 // CORES
 //=====================================
-
+/*
 if (etapa >= 7)
 {
     for (var i = 0; i < 9; i++)
@@ -179,6 +179,93 @@ if (etapa >= 7)
         }
     }
 }
+*/
+
+//=====================================
+// CORES
+//=====================================
+
+if (etapa >= 7)
+{
+    // Cria uma lista com os índices das cores
+    var ordem_cores = [];
+
+    for (var i = 0; i < 9; i++)
+    {
+        if (i <= cor_atual)
+        {
+            array_push(ordem_cores, i);
+        }
+    }
+
+    //=====================================
+    // ORDENA DA MAIOR PORCENTAGEM
+    // PARA A MENOR
+    //=====================================
+
+    var qtd_cores = array_length(ordem_cores);
+
+    for (var i = 0; i < qtd_cores - 1; i++)
+    {
+        for (var j = i + 1; j < qtd_cores; j++)
+        {
+            var cor_i = ordem_cores[i];
+            var cor_j = ordem_cores[j];
+
+            if (porcentagem_animada[cor_j] > porcentagem_animada[cor_i])
+            {
+                var temp = ordem_cores[i];
+                ordem_cores[i] = ordem_cores[j];
+                ordem_cores[j] = temp;
+            }
+        }
+    }
+
+    //=====================================
+    // EXIBE AS CORES
+    //=====================================
+
+    for (var i = 0; i < qtd_cores; i++)
+    {
+        var cor = ordem_cores[i];
+
+        var yy =
+            y_cores +
+            espaco_subtitulo_valor +
+            (i * espaco_linha_cor);
+
+        //----------------------------------
+        // ÍCONE
+        //----------------------------------
+
+        draw_sprite_ext(
+            spr_resultado_cores,
+            cor,
+            x_cores - 55,
+            yy,
+            escala_icone_cor,
+            escala_icone_cor,
+            0,
+            c_white,
+            1
+        );
+
+        //----------------------------------
+        // PORCENTAGEM
+        //----------------------------------
+
+        draw_text(
+            x_cores + 30,
+            yy,
+            string_format(
+                porcentagem_animada[cor],
+                2,
+                1
+            ) + "%"
+        );
+    }
+}
+
 
 
 //=====================================
