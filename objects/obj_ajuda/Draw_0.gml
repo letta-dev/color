@@ -30,15 +30,24 @@ if (mostra)
     draw_set_valign(fa_middle);
 
     var linhas = [
-        "Para combinar as cores voce precisa agrupar um numero igual de tiles de duas cores,",
+	    "Para combinar as cores voce precisa agrupar pelo menos 4 tiles de cores diferentes,",
         "por exemplo, 2 tiles vermelhos e 2 tiles azuis.",
-        "As combinacoes sao validas a partir de 4 tiles.",
         "Caso haja uma terceira cor minoritaria na cadeia ela sera consumida pela combinacao.",
         "",
         "O jogo termina quando todo o tabuleiro esta preenchido ou quando voce decide parar.",
         "Cada combinacao vale pontos, e combinacoes com mais tiles valem mais pontos.",
         "Ao finalizar, independente da forma, sera aplicado um multiplicador baseado",
         "na quantidade de tiles de nivel 3 presentes no tabuleiro."
+
+        //"Para combinar as cores voce precisa agrupar um numero igual de tiles de duas cores,",
+        //"por exemplo, 2 tiles vermelhos e 2 tiles azuis.",
+        //"As combinacoes sao validas a partir de 4 tiles.",
+        //"Caso haja uma terceira cor minoritaria na cadeia ela sera consumida pela combinacao.",
+        //"",
+        //"O jogo termina quando todo o tabuleiro esta preenchido ou quando voce decide parar.",
+        //"Cada combinacao vale pontos, e combinacoes com mais tiles valem mais pontos.",
+        //"Ao finalizar, independente da forma, sera aplicado um multiplicador baseado",
+        //"na quantidade de tiles de nivel 3 presentes no tabuleiro."
     ];
 
     var linha_altura = 20;

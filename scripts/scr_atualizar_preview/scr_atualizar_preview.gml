@@ -27,7 +27,7 @@ function scr_atualizar_preview()
     switch (resultado_combinacao)
     {
         case obj_controle.COMBINACAO_EMPATE_PRIMEIRO:
-        //case obj_controle.COMBINACAO_PRIMEIRO_SEGUNDO:
+        case obj_controle.COMBINACAO_PRIMEIRO_SEGUNDO:
         //case obj_controle.COMBINACAO_MONOCROMATICA:
 
             for (var i = 0; i < array_length(cadeia); i++)

@@ -11,7 +11,7 @@ if room == rm_menu
 	var vh = display_get_gui_height();
 
 	// Texto que você quer desenhar
-	var txt = "Se vecê continuar tentando misturar três iguais, \n a culpa já não é da falta de tutorial.";
+	var txt = "Blend4";
 
 	// Calcula posição central
 	var xx = vw * 0.5;
@@ -36,7 +36,7 @@ if room == rm_principal
 	var vh = display_get_gui_height();
 
 	// Texto que você quer desenhar
-	var txt = "Se vecê continuar tentando misturar três iguais, \n a culpa já não é da falta de tutorial.";
+	var txt = "Blend4";
 
 	// Calcula posição central
 	var xx = vw * 0.5;

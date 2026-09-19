@@ -45,6 +45,7 @@ function scr_resolver_reacao(_board_inicial)
             //----------------------------------
 
             case COMBINACAO_EMPATE_PRIMEIRO:
+			case COMBINACAO_PRIMEIRO_SEGUNDO:
 
                 scr_escolher_board_resultado();
                 scr_escolher_cor_resultado();
